@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Eкo-Екзамен</title>
+    <meta name="description" content="Важко дихати від смогу? На рибалці впіймали пластикову пляшку? У лісі доводилося шукати гриби під кульками? Так далі не піде! Скликається спеціальна комісія, що проведе екзамен на екологічність населення." />
+
+    <meta property="og:url" content="http://ecoexam.today/" />
+    <meta property="og:type" content="game" />
+    <meta property="og:title" content="Eкo-Екзамен" />
+    <meta property="og:description" content="Важко дихати від смогу? На рибалці впіймали пластикову пляшку? У лісі доводилося шукати гриби під кульками? Так далі не піде! Скликається спеціальна комісія, що проведе екзамен на екологічність населення." />
+    <meta property="og:image" content="./images/cover.jpg" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./dist/styles.css?v=1.6" />
+</head>
+<body>
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : 397184214428576,
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.12'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="app">
+        <div class="loader">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <script src="./dist/bundle.js?v=1.6"></script>
+</body>
+</html>

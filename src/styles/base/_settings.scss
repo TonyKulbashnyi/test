@@ -1,0 +1,20 @@
+$base-size: 16;
+
+$color-black: #252625;
+$color-white: #ffffff;
+$color-green: #007236;
+$color-yellow: #dae241;
+
+@function remy ($pxsize) {
+  @return ($pxsize/$base-size) * 1rem;
+}
+
+$color: blue;
+@mixin autoprefixer-test {
+  user-select: none;
+}
+
+.autoprefixer-test {
+  @include autoprefixer-test;
+  color: $color;
+}

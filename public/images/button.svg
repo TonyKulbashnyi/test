@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="78px" viewBox="0 0 170 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.5%" y="-3.1%" width="105.0%" height="106.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100062274 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FirstScreen" transform="translate(-637.000000, -743.000000)" fill="#007236" fill-rule="nonzero">
+            <g id="MAIN" filter="url(#filter-1)" transform="translate(180.000000, 86.000000)">
+                <g id="start" transform="translate(467.000000, 663.000000)">
+                    <path d="M2.0884436,52.1605401 C5.63788096,58.1160898 30.2546755,57.9557806 43.1776523,57.9557806 C56.1006292,57.9557806 107.217569,57.9557806 121.673394,57.9557806 C136.129218,57.9557806 145.938485,54.0022887 147.575764,52.1605401 C149.213042,50.3187914 151.32566,24.7331904 149.450712,16.1234976 C147.575764,7.51380483 141.168291,1.44254311 135.07291,1.44254311 C128.977528,1.44254311 63.0374566,4.0340088 47.2600455,1.44254311 C31.4826344,-1.14892258 3.98859894,-1.45507713 2.0884436,11.0104755 C0.188288257,23.4760282 -1.46099376,46.2049903 2.0884436,52.1605401 Z" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
